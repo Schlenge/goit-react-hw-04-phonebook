@@ -38,8 +38,8 @@ const App = () => {
   };
 
   // Add filter
-  const handleFilter = e => {
-    setFilter(e.target.value);
+  const handleFilter = value => {
+    setFilter(value);
   };
 
   return (
